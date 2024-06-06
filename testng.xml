@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All">
+    <listeners>
+        <listener class-name="Reporting.Setup"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:\Users\ssethrabalan\IdeaProjects\API_CTL_ALT_DEFEAT\src\test\java">
+        <classes>
+            <class name="Magnify.Magnify_TCs"/>
+            <class name="Monocle.Monocle_TCs"/>
+        </classes>
+    </test>
+</suite>
